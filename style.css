@@ -9,6 +9,11 @@
 }
 
 /* Results Table */
+#result-table {
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
 .link {
     min-width: 210px;
     text-align: left;

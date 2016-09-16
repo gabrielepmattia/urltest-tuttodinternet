@@ -3,7 +3,7 @@
 <?php
 if ($_POST['indirizzi']) {
     ?>
-    <table cellpadding="4px;" class="table table-striped">
+    <table id="result-table" class="table table-striped">
         <thead>
             <tr>
                 <th>Link</th>
@@ -64,7 +64,7 @@ if ($_POST['indirizzi']) {
 
                     // Stampo la riga
                     echo '<tr style="background-color:#' . $color . ';">
-                            <td class="link">' . $riga . '</td>
+                            <td class="link col-md-2">' . $riga . '</td>
                             <td class="status">' . $codice . '</td>
                             <td class="response">' . substr($headers[0], 13) . '</td>
                             <td class="notes">' . $notes . '</td>
