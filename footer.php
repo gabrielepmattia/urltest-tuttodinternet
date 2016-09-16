@@ -1,7 +1,7 @@
 </div> <!-- page-wrapper -->
 
 <div id="footer-wrapper">
-	<a href="http://www.tuttodinternet.com">Tuttodinternet.com</a> - Multiple URLs Checker by <a href="https://twitter.com/gabry3795">@gabry3795</a> &copy; 2014 - v <?php echo $ver; ?><br/>
+	<a href="http://www.tuttodinternet.com">Tuttodinternet.com</a> - Multiple URLs Checker by <a href="https://gabry3795.github.io">@gabry3795</a> &copy; <?php echo date('Y') ?> - v <?php echo $ver; ?><br/>
 	<?php require('script/visit.php') ?>
 	<?php echo $old_links_tested ?> urls tested | 
 	<?php echo $counterVal; ?> visitors | 
@@ -16,9 +16,7 @@
 	<a href="mailto:tuttodinternet@live.it">tuttodinternet &lt;at&gt; live.it</a> 
 	</span>
 
-	<br /><br />
-
-	<?php include '../wp-content/themes/LightenMag/ads/728x90-Header.php' ?>
+	<?php // include '../wp-content/themes/LightenMag/ads/728x90-Header.php' ?>
 
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -30,7 +28,6 @@
 	  ga('send', 'pageview');
 
 	</script>
-	<br />
 	
 </div> <!-- footer-wrapper -->
 </div> <!-- page-wrapper -->
