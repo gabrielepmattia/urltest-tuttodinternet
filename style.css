@@ -1,0 +1,21 @@
+#page-wrapper{
+	text-align:center;
+}
+
+/* Results Table */
+.link{
+	min-width: 210px;
+	text-align: left;
+}
+.status{
+	min-width: 40px;
+	text-align: center;
+}
+.response{
+	min-width: 140px;
+	text-align: left;
+}
+.notes{
+	min-width: 190px;
+	text-align: left;
+}
