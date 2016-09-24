@@ -30,4 +30,4 @@
     </div>
 
     <div id="page-container">
-        <div id="page-wrapper">
+        <div id="page-wrapper" class="single-page">
